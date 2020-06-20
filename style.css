@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap');
+
+/* Colors and fonts */
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #222831;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: larger;
+}
+
+
+p {
+  color: #393e46;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.btn-green {
+  background-color: #204969;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn-green:hover {
+  background-color: #21FFA5;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  color: #204969;
+  font-weight: normal;
+  font-size: 32px;
+  margin: 8px 12px;
+}
+
+.social-icon:hover {
+  color: #21FFA5;
+}
